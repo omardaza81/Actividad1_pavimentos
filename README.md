@@ -106,10 +106,8 @@ Las imágenes y máscaras provienen del conjunto **CrackForest**:
 Se incluyen únicamente las cuatro imágenes analizadas y sus máscaras. Cada máscara (`.mat`)
 contiene la matriz `Segmentation`, donde 1 corresponde a pavimento y 2 a fisura.
 
-## Notas técnicas
+## Nota técnica
 
 - Las métricas PSNR y SSIM se implementaron en el propio notebook según sus definiciones
   originales (SSIM: Wang et al., 2004), sin depender de scikit-image, para reducir las
   dependencias del proyecto.
-- El uso de herramientas de inteligencia artificial durante el desarrollo se declara en la
-  sección correspondiente del notebook.
